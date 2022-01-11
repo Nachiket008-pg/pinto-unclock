@@ -1,0 +1,63 @@
+
+body{
+    background-color: #f0f0f0;
+}
+.createpassword {
+    width: 50vw;
+    height: 20vh;
+    margin: auto;
+    border: 3px solid #000;
+    border-radius: 20px;
+    background-color: #f7efda;
+}
+
+#validate {
+    width: 60vw;
+    height: 60vh;
+    border: 3px solid #000;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f7efda;
+}
+.btn{
+    margin: 4px;
+    padding: 4px;
+}
+button{
+    padding: 4px;
+    background-color: #b9ebfa;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
+input {
+    width: 25px;
+    height: 30px;
+    border-radius: 8px;
+}
+input[type="text"]{
+     font-weight: bold;
+     font-size: 20px;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#keypad {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    width: 30vw;
+    height: 30vh;
+    border: 3px solid #000;
+    padding: 8px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#five {
+    width: 250px;
+}
